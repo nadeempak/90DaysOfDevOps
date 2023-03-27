@@ -36,6 +36,7 @@ for (( i = start; i <= end; i++ )); do
 done
 
 echo `ls -lh`
+ 
  2) Create a Script to backup all your work done till now.
 
  Backups are an important part of DevOps Engineers day to Day activities
@@ -43,6 +44,22 @@ echo `ls -lh`
  Watch [this video](https://youtu.be/aolKiws4Joc) 
  
  In case of Doubts, post it in [Discord Channel for #90DaysOfDevOps](https://discord.gg/hs3Pmc5F)
+
+#!/bin/Bash
+
+BACKUP_DIR=/home
+
+if [ ! -d $BACKUP_DIR ]; then
+  mkdir $BACKUP_DIR
+fi
+
+CURRENT_DATE=$(date +"%Y-%m-%d_%H-%M-%S")
+
+BACKUP_FILE=$BACKUP_DIR/backup_$CURRENT_DATE.tar.gz
+
+tar -czf $BACKUP_FILE ./*
+
+echo "Backup complete: $BACKUP_FILE"
 
 
  3) Read About Cron and Crontab, to automate the backup Script
