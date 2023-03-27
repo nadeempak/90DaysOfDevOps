@@ -25,7 +25,17 @@ then it creates 50 directories as ```Movie20 Movie21 Movie23 ...Movie50```
 Notes:
 You may need to use loops or commands (or both), based on your preference . [Check out this reference: https://www.geeksforgeeks.org/bash-scripting-for-loop/](https://www.geeksforgeeks.org/bash-scripting-for-loop/)
 
+#!/bin/Bash
 
+name=$1
+start=$2
+end=$3
+
+for (( i = start; i <= end; i++ )); do
+    mkdir $name.$i
+done
+
+echo `ls -lh`
  2) Create a Script to backup all your work done till now.
 
  Backups are an important part of DevOps Engineers day to Day activities
