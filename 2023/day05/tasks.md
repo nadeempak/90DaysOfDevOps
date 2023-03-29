@@ -68,7 +68,7 @@ echo "Backup complete: $BACKUP_FILE"
 
  Watch This video as a Reference to Task 2 and 3 [https://youtu.be/aolKiws4Joc](https://youtu.be/aolKiws4Joc)
 
-
+* * * * * ./1.sh
  4) Read about User Management and Let me know on Linkedin if you're ready for Day 6. 
 
 A user is an entity, in a Linux operating system, that can manipulate files and perform several other operations. Each user is assigned an ID that is unique for each user in the operating system. In this post, we will learn about users and commands which are used to get information about the users. After installation of the operating system, the ID 0 is assigned to the root user and the IDs 1 to 999 (both inclusive) are assigned to the system users and hence the ids for local user begins from 1000 onwards.
