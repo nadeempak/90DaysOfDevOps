@@ -18,10 +18,12 @@
 -	"chmod" is used to change the other users permissions of a file or directory.
 
     As a task, change the user permissions of the file and note the changes after `ls -ltr`
+    **Done**
 
 2) Write an article about File Permissions based on your understanding from the notes.
-
+**Done**
 3) Read about ACL and try out the commands `getfacl` and `setfacl`
+**Done**
 
 In case of any doubts, post it on [Discord Community](https://discord.gg/hs3Pmc5F)
 
