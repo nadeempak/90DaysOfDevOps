@@ -75,7 +75,12 @@ A user is an entity, in a Linux operating system, that can manipulate files and 
 
 
  5) Create 2 users and just display their Usernames
+#!/bin/bash
 
+useradd ali
+useradd adeel
+
+sudo tail 2 /etc/passwd
 [Check out this reference: https://www.geeksforgeeks.org/user-management-in-linux/](https://www.geeksforgeeks.org/user-management-in-linux/)
 
  Post your daily work on Linkedin and le [me](https://www.linkedin.com/in/shubhamlondhe1996/) know , writing an article is the best :)
