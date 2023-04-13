@@ -10,12 +10,17 @@
 ## Tasks
 task-1: 
 - Set your user name and email address, which will be associated with your commits.
+- git config --global --edit
 
 task-2: 
 - Create a repository named "Devops" on GitHub
+- **Done**
 - Connect your local repository to the repository on GitHub.
+- **Done**
 - Create a new file in Devops/Git/Day-02.txt & add some content to it
+- **Done**
 - Push your local commits to the repository on GitHub
+- **Done**
 
 reff :- https://youtu.be/AT1uxOLsCdk
 
