@@ -42,7 +42,10 @@
  **sudo systemctl status docker**
 
  2) stop the service jenkins and post before and after screenshots
-![image](https://user-images.githubusercontent.com/9863856/231663838-bcc0c447-6adf-4eec-8b90-4b9cdf5ebdb1.png)
+![image](https://user-images.githubusercontent.com/9863856/231663989-5bc2725b-b874-48a4-88af-45a1fed2d957.png)
+![image](https://user-images.githubusercontent.com/9863856/231664130-6e27c78e-3039-42f4-98ec-ba49a25b2479.png)
+
+
 
  3) read about the commands systemctl vs service
 **Done**
