@@ -46,6 +46,7 @@
 
  Restore the file to a previous version where the content should be “This is the bug fix in development branch”
  [Hint use git revert or reset according to your knowledge]
+ **Done**
 
 ## Task 2:
 
@@ -53,7 +54,7 @@
  - add some changes to `dev` branch and merge that branch in `master`
  - as a practice try git rebase too, see what difference you get.
 
-
+**Done**
 ## Note: 
 We should learn and follow the [best practices](https://www.flagship.io/git-branching-strategies/) , industry follows for branching.
 
